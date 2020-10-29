@@ -23,6 +23,9 @@
 .mt-150 {
   margin-top: 150px;
 }
+.mt-100 {
+  margin-top: 100px;
+}
 .mt-50 {
   margin-top: 50px;
 }
@@ -50,6 +53,7 @@ body {
 nav {
   height: 60px;
   background: white;
+  border-style: none;
 }
 .navbar-brand img{
   height: 25px;
@@ -60,4 +64,17 @@ nav {
 }
 .nav.navbar-nav li a{
   line-height: 30px;
+}
+.bg-img {
+  background-image: url(../img/bg-home-hero-3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.bg-img h1 {
+  font-size: 4em;
+}
+.bg-img h4 {
+line-height: 30px;
+color: rgba(255, 255, 255, 0.7);
 }
