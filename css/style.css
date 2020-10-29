@@ -1,0 +1,63 @@
+/* Utiliy */
+.h-100 {
+  height: 100px !important;
+}
+.h-250 {
+  height: 250px !important;
+}
+.h-300 {
+  height: 300px !important;
+}
+.h-700 {
+  height: 700px !important;
+}
+.h-400 {
+  height: 400px;
+}
+.mb-0{
+  margin-bottom: 0px !important;
+}
+.mb-25{
+  margin-bottom: 25px;
+}
+.mt-150 {
+  margin-top: 150px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.c-white {
+  color: white !important;
+}
+.f-bold {
+  font-weight: bold;
+}
+.ml-auto {
+  margin-left: auto !important;
+}
+.mr-auto {
+  margin-left: auto !important;
+}
+.bg-white {
+  background: white !important;
+}
+/* /Utiliy */
+body {
+}
+nav {
+  height: 60px;
+  background: white;
+}
+.navbar-brand img{
+  height: 25px;
+}
+.btn-group button {
+  margin-top: 12px;
+  padding: 6px 20px;
+}
+.nav.navbar-nav li a{
+  line-height: 30px;
+}
