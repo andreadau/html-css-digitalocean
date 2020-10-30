@@ -18,7 +18,10 @@
   margin-bottom: 0px !important;
 }
 .mb-25{
-  margin-bottom: 25px;
+  margin-bottom: 25px !important;
+}
+.pb-50{
+  padding-bottom: 50px !important;
 }
 .mt-150 {
   margin-top: 150px;
@@ -142,6 +145,7 @@ color: rgba(255, 255, 255, 0.7);
 /* /Form Header */
 
 /* Main */
+
 /* Sporson main */
 #sponsor-main h2 {
   font-size: 1em;
@@ -150,8 +154,15 @@ color: rgba(255, 255, 255, 0.7);
 #sponsor-main img {
   margin: 5px;
 }
+#sponsor-main > div > div > a {
+  
+}
+/* /Sporson main */
 
-/* Sporson main */
+/* optimize main */
+
+
+/* optimize main */
 
 
 /* Media query for header */
