@@ -137,6 +137,10 @@ color: rgba(255, 255, 255, 0.7);
 
 /* Main */
 /* Sporson main */
+#sponsor-main h2 {
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.5);
+}
 #sponsor-main img {
   margin: 5px;
 }
@@ -185,5 +189,16 @@ color: rgba(255, 255, 255, 0.7);
 @media (min-width:768px) and (max-width:992px) {
   .bg-img h1 {
     font-size: 3em;
+  }
+  #sponsor-main img {
+    margin: 2px;
+    width: 110px;
+  }
+}
+
+@media (max-width: 366px) {
+  #sponsor-main img {
+    margin: 2px;
+    width: 90px;
   }
 }
