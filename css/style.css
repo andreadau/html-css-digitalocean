@@ -56,6 +56,12 @@
 .bg-grey {
   background-color: #F3F5F9;
 }
+.bg-blue {
+  background-color: #0038B2;
+}
+.bg-dblue {
+  background-color: #031C4E;
+}
 /* /Utiliy */
 body {
 font-family: 'Roboto', sans-serif;
