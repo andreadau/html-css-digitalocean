@@ -159,6 +159,18 @@ color: rgba(255, 255, 255, 0.7);
   left: 10px;
   color: #579AFF;
 }
+#form-header > button:nth-child(4) > i {
+  margin-top: 3px;
+}
+.nav.navbar-nav.navbar-right > div > button:hover {
+  background-color: #579AFF;
+}
+.navbar-header > button {
+  margin-top: 15px;
+}
+.navbar-header > button:hover {
+  background-color: #579AFF !important;
+}
 /* /Form Header */
 
 /* Main */
