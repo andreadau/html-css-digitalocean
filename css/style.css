@@ -189,15 +189,11 @@ color: rgba(255, 255, 255, 0.7);
 /* /optimize section*/
 
 /* service section */
-
 .item {
   border-bottom: 1px solid white;
   padding-bottom: 10px;
 }
 #service .col-xs-3
-
-
-
 /* /service section */
 
 
@@ -238,6 +234,49 @@ color: rgba(255, 255, 255, 0.7);
   vertical-align: middle;
   padding-bottom: 20px;
 }
+/* /Development section */
+/* /Main */
+
+/* footer */
+#footer a {
+  display: block;
+  color:  #B3C2E7;
+  line-height: 2em;
+}
+#footer p {
+  color:  #B3C2E7;
+}
+#footer i {
+  color:  #B3C2E7;
+  padding-right: 20px;
+}
+#footer h2 {
+  color: white;
+}
+
+.bubble {
+  position: relative;
+  height: 60px;
+  width: 500px;
+  background: #fff;
+  border: #bbb solid 0;
+  border-radius: 15px;
+  text-align: right;
+}
+.pointer {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 9px 0 9px 15px;
+  border-color: transparent #FFFFFF;
+  display: block;
+  width: 0;
+  z-index: 1;
+  right: -15px;
+  top: 20px;
+  }
+}
+/* /footer */
 
 /* ************************* */
 /* ************************* */
