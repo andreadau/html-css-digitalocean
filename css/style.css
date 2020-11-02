@@ -77,6 +77,11 @@
 .c-gray {
   color: #B3C2E7;
 }
+.c-black {
+  color: black !important;
+}
+
+
 /* /Utiliy */
 body {
 font-family: 'Roboto', sans-serif;
@@ -253,28 +258,38 @@ color: rgba(255, 255, 255, 0.7);
 #footer h2 {
   color: white;
 }
-
-.bubble {
-  position: relative;
-  height: 60px;
-  width: 500px;
-  background: #fff;
-  border: #bbb solid 0;
-  border-radius: 15px;
-  text-align: right;
+.p-bottom {
+  position: fixed;
+  bottom: 35px;
+  right: 70px;
 }
-.pointer {
-  content: '';
-  position: absolute;
-  border-style: solid;
-  border-width: 9px 0 9px 15px;
-  border-color: transparent #FFFFFF;
-  display: block;
-  width: 0;
-  z-index: 1;
-  right: -15px;
-  top: 20px;
-  }
+.bubble {
+    display: inline-block;
+    position: relative;
+    padding: 7px;
+    background: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+.bubble:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent grey;
+    display: block;
+    width: 0;
+    z-index: 1;
+    right: -15px;
+    top: 12px;
+}
+.p-bottom img {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 3px;
 }
 /* /footer */
 
